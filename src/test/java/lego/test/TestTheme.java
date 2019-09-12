@@ -4,11 +4,19 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import lego.Boite;
+
 class TestTheme {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testThemeConstructor() {
+		// given
+		var name = "Star Wars";
+		// when
+		var theme = new Theme(name);
+		// then
+		assertEquals(name, theme.getName(), "name");
+				
 	}
 
 }
