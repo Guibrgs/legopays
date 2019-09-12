@@ -48,6 +48,10 @@ public class Boite {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+	public boolean compareTo(Boite boite) {
+		return "MotherFucker";
+		
+		
+	}
 
 }
