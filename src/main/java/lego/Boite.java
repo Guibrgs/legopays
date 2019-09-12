@@ -49,5 +49,9 @@ public class Boite {
 		this.name = name;
 	}
 	
+	public boolean compareTo(Boite boite) {
+		return ( this == boite);
+	}
+	
 
 }
