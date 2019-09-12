@@ -2,17 +2,40 @@ package lego;
 
 
 public class Boite {
+	
 	private int number;
 	private String name;
+	private int pieces;
+	private int figurines;
+	private int price;
 	
-	
-	
-	public Boite(int number, String name) {
+	public Boite(int number, String name, int pieces, int figurines, int price) {
 		super();
 		this.number = number;
 		this.name = name;
+		this.pieces = pieces;
+		this.figurines = figurines;
+		this.price = price;
 	}
-	
+			
+	public int getPieces() {
+		return pieces;
+	}
+	public void setPieces(int pieces) {
+		this.pieces = pieces;
+	}
+	public int getFigurines() {
+		return figurines;
+	}
+	public void setFigurines(int figurines) {
+		this.figurines = figurines;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
 	public int getNumber() {
 		return number;
 	}
