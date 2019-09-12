@@ -17,7 +17,7 @@ class TestTheme {
 		var theme = new Theme(name);
 		// then
 		assertEquals(name, theme.getName(), "name");
-				
+					
 	}
 
 }
